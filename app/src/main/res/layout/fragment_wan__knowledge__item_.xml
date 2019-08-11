@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.wan.Wan_knowledge.Wan_Knowledge_Item.fragment.Wan_Knowledge_Item_Fragment">
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/wan_knowledge_item_SmartRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wan_knowledge_item_rlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+
+</FrameLayout>

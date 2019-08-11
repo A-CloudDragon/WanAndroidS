@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4263481"
+    tools:context=".ui.home.registration.activity.RegistrationActivity">
+
+
+    <ImageView
+        android:id="@+id/registration_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/x30"
+        android:src="@drawable/left" />
+
+
+    <TextView
+        android:id="@+id/registration_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/x60"
+        android:textColor="#FFFFFF"
+        android:layout_margin="@dimen/x30"
+        android:text="注册"/>
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/registration_r1"
+        android:layout_width="@dimen/x500"
+        android:layout_height="@dimen/x100"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/login_text"
+        android:layout_marginTop="@dimen/x330"
+        android:layout_centerHorizontal="true">
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/youxiang" />
+
+
+
+        <EditText
+            android:id="@+id/registration_phone"
+            android:hint="请输入手机号"
+            android:textColorHint="#FFFFFF"
+            android:textSize="@dimen/x40"
+            android:gravity="center_horizontal"
+            android:layout_width="@dimen/x500"
+            android:layout_height="@dimen/x100" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/registration_r2"
+        android:layout_marginTop="@dimen/x60"
+        android:layout_width="@dimen/x500"
+        android:layout_height="@dimen/x100"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/registration_r1"
+        android:layout_centerHorizontal="true">
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/mima" />
+
+
+
+        <EditText
+            android:id="@+id/registration_pwd1"
+            android:hint="请输入密码"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_width="@dimen/x500"
+            android:layout_height="@dimen/x100"
+            android:textSize="@dimen/x40"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/x30"
+        android:id="@+id/registration_r3"
+        android:layout_width="@dimen/x500"
+        android:layout_height="@dimen/x100"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/registration_r2"
+        android:layout_centerHorizontal="true">
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/mima" />
+
+
+
+        <EditText
+            android:id="@+id/registration_pwd2"
+            android:hint="请输入密码"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_width="@dimen/x500"
+            android:layout_height="@dimen/x100"
+            android:textSize="@dimen/x40"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="@dimen/x400"
+        android:layout_height="@dimen/x100"
+        android:text="注册"
+        android:background="#5FCA5F"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/registration_r3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x100"
+        android:textSize="33sp"/>
+
+
+
+
+
+</RelativeLayout>

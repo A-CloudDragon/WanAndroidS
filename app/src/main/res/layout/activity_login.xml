@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.home.login.activity.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/login_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/x20"
+        android:src="@drawable/left" />
+
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x200"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:text="登录"/>
+
+
+
+
+
+
+
+<RelativeLayout
+    android:id="@+id/login_r1"
+    android:layout_width="@dimen/x500"
+    android:layout_height="@dimen/x150"
+    android:layout_below="@+id/login_text"
+    android:layout_marginTop="@dimen/x50"
+    android:layout_centerHorizontal="true">
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/name" />
+
+
+
+    <EditText
+        android:id="@+id/login_name"
+        android:hint="请输入用户名"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/x480"
+        android:layout_height="@dimen/x100" />
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/login_r2"
+        android:layout_marginLeft="@dimen/y130"
+        android:layout_width="@dimen/x600"
+        android:layout_height="@dimen/x150"
+        android:layout_below="@+id/login_r1"
+        >
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pwdd" />
+
+        <CheckBox
+            android:checked="false"
+            android:id="@+id/login_pwd_cb"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y50"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/pwd"/>
+
+
+        <EditText
+            android:id="@+id/login_pwd"
+            android:hint="请输入密码"
+            android:layout_marginRight="@dimen/y100"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_width="@dimen/x480"
+            android:layout_height="@dimen/x100"
+            android:gravity="center_horizontal"
+            />
+    </RelativeLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="@dimen/x400"
+        android:layout_height="@dimen/x100"
+        android:text="登录"
+        android:background="@color/colorAccent"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/login_r2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x100"
+        android:textSize="33sp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login"
+        android:layout_width="@dimen/x80"
+        android:layout_height="@dimen/x80"
+        android:textSize="30sp"
+        android:text="或"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/egistration"
+        android:layout_width="@dimen/x400"
+        android:layout_height="@dimen/x100"
+        android:text="注册"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/login_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x20"
+        android:textSize="30sp"/>
+
+
+
+
+
+
+
+</RelativeLayout>

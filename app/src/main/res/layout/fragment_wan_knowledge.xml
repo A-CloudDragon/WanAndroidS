@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.wan.fragment.fragment.Wan_knowledgeFragment">
+
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/wan_knowledge_SmartRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <com.scwang.smartrefresh.header.StoreHouseHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wan_knowledge_rlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+        <com.scwang.smartrefresh.layout.footer.FalsifyFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/wan_knowledge_pb"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/x50"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

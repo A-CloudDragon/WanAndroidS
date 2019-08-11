@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context=".ui.wan.fragment.fragment.Wan_navigationFragment">
+
+
+
+    <q.rorbin.verticaltablayout.VerticalTabLayout
+        android:id="@+id/wan_navigation_vtab"
+        android:layout_width="@dimen/x200"
+        android:layout_height="match_parent"
+        android:background="#EDEDED"
+        app:indicator_color="#EDEDED"
+        app:indicator_width="@dimen/x10"
+        app:indicator_gravity="left"
+        app:tab_height="@dimen/x100"
+        android:visibility="visible"
+        app:tab_mode="scrollable"/>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wan_navigation_rlv"
+        android:background="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/wan_navigation_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_navigation_bg">
+
+
+    <ImageView
+        android:id="@+id/homer_header_img"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/x160"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x30"
+        android:src="@drawable/logo" />
+
+
+
+    <TextView
+        android:id="@+id/homer_header_tv"
+        android:layout_below="@id/homer_header_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/x50"
+        android:textColor="@color/cardview_light_background"
+        android:text="登录"/>
+
+
+</RelativeLayout>

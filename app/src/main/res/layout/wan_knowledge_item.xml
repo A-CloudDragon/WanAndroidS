@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/x10"
+    android:layout_margin="@dimen/x10">
+
+
+
+
+    <RelativeLayout
+        android:background="#FCF7F7"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/x10"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/wan_knowledge_item_superChapterName"
+            android:layout_width="@dimen/x600"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x5"
+            android:textColor="#000"
+            android:text="123445"
+            />
+
+
+        <TextView
+            android:id="@+id/wan_knowledge_item_chapterName"
+            android:layout_below="@+id/wan_knowledge_item_superChapterName"
+            android:layout_width="@dimen/x600"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x5"
+            android:textColor="#000"
+            android:textSize="10sp"
+            android:text="123445"/>
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/than"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

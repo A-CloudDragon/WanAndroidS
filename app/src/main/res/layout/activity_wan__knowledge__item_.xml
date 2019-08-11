@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.wan.Wan_knowledge.Wan_Knowledge_Item.activity.Wan_Knowledge_Item_Activity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/wan_knowledge_item_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/wan_knowledge_item_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/wan_knowledge_item_tab"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.wan.fragment.fragment.Wan_homerFragment">
+
+
+
+
+
+
+   <com.scwang.smartrefresh.layout.SmartRefreshLayout
+       android:id="@+id/wan_home_SmartRefreshLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <!--<com.scwang.smartrefresh.header.FunGameBattleCityHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.header.FunGameBattleCityHeader>-->
+
+
+       <!--<com.scwang.smartrefresh.header.flyrefresh.MountanScenceView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+       <!--<com.scwang.smartrefresh.header.flyrefresh.FlyView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+       <!--<com.scwang.smartrefresh.header.BezierCircleHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+       <!--<com.scwang.smartrefresh.header.DeliveryHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+       <!--<com.scwang.smartrefresh.header.StoreHouseHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+       <!--<com.scwang.smartrefresh.header.DropboxHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+       <!--<com.scwang.smartrefresh.header.FlyRefreshHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+       <!--<com.scwang.smartrefresh.header.fungame.FunGameBase-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.header.fungame.FunGameBase>-->
+
+
+
+       <!--<com.scwang.smartrefresh.header.fungame.FunGameHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.header.fungame.FunGameHeader>-->
+
+
+       <!--<com.scwang.smartrefresh.header.FunGameHitBlockHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.header.FunGameHitBlockHeader>-->
+
+
+
+
+       <!--<com.scwang.smartrefresh.header.material.CircleImageView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+       <!--<com.scwang.smartrefresh.header.FunGameBattleCityHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.header.FunGameBattleCityHeader>-->
+
+
+       <!---->
+       <!--&lt;!&ndash;城市和太阳&ndash;&gt;-->
+       <!--<com.scwang.smartrefresh.header.PhoenixHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!--飞机-->
+       <!--<com.scwang.smartrefresh.header.TaurusHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+       <!---->
+       <!---->
+       <!--<com.scwang.smartrefresh.header.flyrefresh.MountanScenceView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+       <!---->
+       <!---->
+       <!--<com.scwang.smartrefresh.header.waterdrop.WaterDropView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+       <!---->
+       <!---->
+       <!--<com.scwang.smartrefresh.header.flyrefresh.FlyView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"/>-->
+       <!---->
+       <!---->
+       <!---->
+       <!--<com.scwang.smartrefresh.header.waveswipe.AnimationImageView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+       <!---->
+       <!---->
+       <!--<com.scwang.smartrefresh.header.waveswipe.WaveView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+       <!---->
+       <!---->
+       <!--<com.scwang.smartrefresh.layout.header.BezierRadarHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.layout.header.BezierRadarHeader>-->
+
+
+       <!---->
+       <!--<com.scwang.smartrefresh.layout.header.FalsifyHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+
+
+       <!--&lt;!&ndash;&ndash;&gt;-->
+       <!--<com.scwang.smartrefresh.layout.header.bezierradar.RoundDotView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+       <!--数和山丘-->
+       <!--<com.scwang.smartrefresh.layout.header.bezierradar.RoundProgressView-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+
+       <!--带时间的-->
+       <!--<com.scwang.smartrefresh.layout.header.ClassicsHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.layout.header.ClassicsHeader>-->
+
+
+
+
+       <!--<com.scwang.smartrefresh.header.MaterialHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"></com.scwang.smartrefresh.header.MaterialHeader>-->
+
+
+       <!--<com.scwang.smartrefresh.header.PhoenixHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/wan_home_rlv"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+
+
+
+
+       <!--<com.scwang.smartrefresh.header.TaurusHeader-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content" />-->
+
+
+
+
+       <!--&lt;!&ndash;飞机&ndash;&gt;-->
+       <!--<com.scwang.smartrefresh.header.TaurusHeader-->
+           <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content" />-->
+
+
+
+   </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/wan_home_pb"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/x50"
+        android:layout_height="@dimen/x50"
+        />
+
+
+</RelativeLayout>

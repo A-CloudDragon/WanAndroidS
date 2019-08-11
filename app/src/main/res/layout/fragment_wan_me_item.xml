@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.wan.fragment.fragment.Wan_me_itemFragment">
+
+<RelativeLayout
+    android:id="@+id/rlv1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <SearchView
+        android:id="@+id/wan_me_item_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Button
+        android:id="@+id/wan_me_item_search_but"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/y100"
+        android:text="搜索"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_below="@+id/rlv1"
+        android:layout_width="match_parent"
+        android:id="@+id/wan_me_item_SmartRefreshLayout"
+        android:layout_height="match_parent">
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wan_me_item_rlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+
+</RelativeLayout>

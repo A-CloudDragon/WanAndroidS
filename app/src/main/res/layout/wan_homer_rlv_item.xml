@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="@dimen/x20"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="@dimen/x10">
+
+
+    <RelativeLayout
+        android:layout_margin="@dimen/x10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/wan_homer_img"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_margin="@dimen/x10"
+            android:src="@drawable/ic_launcher_round"/>
+
+
+        <TextView
+            android:id="@+id/wan_homer_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x10"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/wan_homer_img"
+            android:text="123"/>
+
+
+
+
+        <TextView
+            android:id="@+id/wan_homer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/wan_homer_img"
+            android:layout_margin="@dimen/x10"
+            android:textColor="#000"
+            android:text="123"/>
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/wan_homer_superChapterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/wan_homer_chapterName"
+            android:layout_marginTop="@dimen/x10"
+            android:textColor="#03A9F4"
+            android:text="123"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/wan_homer_chapterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/x10"
+
+            android:textColor="#FF03A9F4"
+            android:text="123"/>
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/wan_homer_img2"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_margin="@dimen/x10"
+            android:src="@drawable/ic_toolbar_like_p"
+            android:layout_below="@+id/wan_homer_title"/>
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/wan_homer_img3"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_margin="@dimen/x10"
+            android:src="@drawable/icon_comn_back"
+            android:layout_toRightOf="@+id/wan_homer_img2"
+            android:layout_below="@+id/wan_homer_title"/>
+
+
+
+
+        <TextView
+            android:id="@+id/wan_homer_niceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x10"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/wan_homer_img3"
+            android:layout_below="@+id/wan_homer_title"
+            android:text="123"/>
+
+
+
+
+
+        <ImageView
+            android:id="@+id/wan_homer_img4"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_below="@+id/wan_homer_title"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginTop="@dimen/x10"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_new"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

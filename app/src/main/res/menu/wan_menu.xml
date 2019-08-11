@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/wan_home"
+        android:icon="@drawable/selector_homer"
+        android:title="首页"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/wan_knowledge"
+        android:icon="@drawable/selector_knowledge"
+        android:title="知识体系"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/wan_me"
+        android:icon="@drawable/selector_me"
+        android:title="公众号"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/wan_navigation"
+        android:icon="@drawable/selector_navigation"
+        android:title="导航"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/wan_project"
+        android:icon="@drawable/selector_project"
+        android:title="项目"
+        app:showAsAction="ifRoom" />
+
+</menu>
